@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel ./src/index.html",
-    "build":"parcel build ./src/index.html",
+    "build": "parcel build ./src/index.html",
     "test": "Just"
   },
   "repository": {
@@ -17,13 +17,14 @@
   "homepage": "https://github.com/AravindSaravananGitHub/React-Practice#readme",
   "devDependencies": {
     "parcel": "^2.13.3",
+    "prettier": "3.5.3",
     "process": "^0.11.10"
   },
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
-  "browserslist":[
+  "browserslist": [
     "last 10 versions"
   ]
 }
