@@ -29,8 +29,10 @@ const Main = () => {
               type="checkbox"
               checked={item.checked}
             />
-            <label htmlFor="checkBox">{item.item}</label>
-            <FaTrashAlt role="button" />
+            <label htmlFor="checkBox" className="itemName">
+              {item.item}
+            </label>
+            <FaTrashAlt role="button" className="deleteButton" />
           </li>
         ))}
       </ul>
